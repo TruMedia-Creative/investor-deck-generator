@@ -489,10 +489,13 @@ h2 {
 
   .presentation-frame {
     border-radius: 4px;
+    width: 100%;
+    min-width: 0;
   }
 
   .slide-container {
     width: 100%;
+    min-width: 0;
     height: auto;
     min-height: 500px;
     flex-direction: column !important;

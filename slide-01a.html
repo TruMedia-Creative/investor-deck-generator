@@ -161,6 +161,74 @@
         font-size: 19px;
       }
 
+      /* Mobile Responsive Styles */
+      @media screen and (max-width: 1024px) {
+        .exec-left-panel {
+          width: 100%;
+          height: auto;
+          min-width: 0;
+        }
+        .exec-right-panel {
+          width: 100%;
+          height: auto;
+          min-width: 0;
+        }
+        .exec-metric-value {
+          white-space: normal;
+          word-break: break-word;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .exec-left-panel {
+          padding: 30px 20px;
+        }
+        .exec-right-panel {
+          padding: 30px 20px;
+          gap: 20px;
+        }
+        .exec-main-heading {
+          font-size: 22px;
+        }
+        .exec-photo-cluster {
+          height: 150px;
+        }
+        .exec-metrics-section {
+          padding: 20px;
+        }
+        .exec-metrics-title {
+          font-size: 16px;
+          margin-bottom: 12px;
+        }
+        .exec-metric-value {
+          text-align: right;
+        }
+        .exec-metric-row.highlight {
+          margin: 5px -10px;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .exec-left-panel {
+          padding: 20px 15px;
+        }
+        .exec-right-panel {
+          padding: 20px 15px;
+        }
+        .exec-main-heading {
+          font-size: 20px;
+        }
+        .exec-metric-label {
+          font-size: 13px;
+        }
+        .exec-metric-value {
+          font-size: 14px;
+        }
+        .exec-metric-row.highlight .exec-metric-value {
+          font-size: 15px;
+        }
+      }
+
       /* Table of Contents */
       .toc-section {
         margin-top: 18px;
@@ -274,7 +342,7 @@
                     </div>
                     <div class="exec-metric-row">
                         <span class="exec-metric-label">Tax Efficiency</span>
-                        <span class="exec-metric-value">~$100K Depreciation </span> Year 1 (5% Owner)
+                        <span class="exec-metric-value">~$100K Depreciation Year 1 (5% Owner)</span>
                     </div>
                 </div>
             </div>
